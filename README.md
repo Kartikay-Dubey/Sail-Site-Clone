@@ -30,7 +30,7 @@ The goal of this project was to practice building a modern and structured webpag
 
 ## 📸 Preview
 
-![SAIL Homepage Clone Preview](./images/preview.png)
+[SAIL Homepage Clone Preview](./images/preview.png)
 
 ## 🚀 Live Demo
 
