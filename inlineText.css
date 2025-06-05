@@ -1,14 +1,20 @@
 /*Inbetween Line Texts CSS*/
 
+.inbetween-text {
+    width: 80%;
+    text-align: center;
+    margin: 30px auto 0 auto;
+}
+
 .inbetween-text h2{
-    display: block;
-  width: 80%; 
-  margin: 0 auto; /* Center the text and lines horizontally */
-  text-align: center; 
-  border-bottom: 1px solid rgb(57, 57, 57); /* Thinner bottom line */
-  line-height: 2px; /* Reduce line height to push lines closer */
-  color: rgb(57, 57, 57);
-  height: 30px;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgb(57, 57, 57);
+    color: rgb(57, 57, 57);
+    font-size: 2rem;
+    font-weight: 600;
+    white-space: nowrap; /* Prevents wrapping */
 } 
 
 .inbetween-text span { 
@@ -33,4 +39,3 @@
     padding:10px;
  }
 
- 
