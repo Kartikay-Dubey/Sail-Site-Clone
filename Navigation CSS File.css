@@ -1,0 +1,103 @@
+
+    /*Navigation Part CSS*/
+
+    /* Header container */
+    header {
+        background-color: #f0f0f5;
+        font-family: Arial, sans-serif;
+        width: 100%;
+      }
+  
+      /* Top Section */
+      .top-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+  
+      /* Logo and Certification */
+      .logo-cert {
+        display: flex;
+        align-items: center;
+      }
+  
+      .logo-cert img {
+        height: 50px;
+        margin-right: 10px;
+      }
+  
+      /* Skip to Main Content, Font Size, Language Selection */
+      .top-links {
+        display: flex;
+        align-items: center;
+      }
+  
+      .skip-link {
+        margin-right: 20px;
+        color: #333;
+        text-decoration: none;
+        font-size: 14px;
+      }
+  
+      .font-size-buttons button {
+        background-color: #000;
+        color: #fff;
+        border: none;
+        margin: 0 5px;
+        padding: 5px 8px;
+        cursor: pointer;
+      }
+  
+      .lang-links {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 14px;
+        margin: 0 5px;
+      }
+  
+      /* Main Navigation Links */
+      .main-nav {
+        display: flex;
+        justify-content: center;
+        padding: 8px 0;
+      }
+  
+      .main-nav a {
+        margin: 0 10px;
+        color: #333;
+        text-decoration: none;
+        font-size: 14px;
+      }
+  
+      /* Bottom Navigation */
+      .bottom-nav {
+        background-color: #002855;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+  
+      /* Search Bar */
+      .search-bar input {
+        padding: 5px 10px;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        max-width: 200px;
+      }
+  
+      /* Bottom Navigation Links */
+      .bottom-nav-links a {
+        margin: 10px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+      }
+  
+      /* Profile Section */
+      .profile-section {
+        color: #fff;
+        font-size: 14px;
+      }

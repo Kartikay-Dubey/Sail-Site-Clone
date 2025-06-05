@@ -1,0 +1,90 @@
+/* Title styling */
+.title {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Container for the card section */
+.card-section {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 15px;
+    align-items: center;
+    cursor:pointer;
+    transition: 0.3s ease;
+  
+}
+
+/* Individual card styling */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    min-width: 250px;
+    max-width: 250px;
+    text-align: center;
+    
+}
+
+.card-section img{
+    object-fit:fill;
+    transition: transform 0.8s;
+    cursor: pointer;
+    
+}
+
+.card:hover img {
+    transform: scale(1.5);
+}
+
+.card-section:hover > :not(:hover){
+    
+    filter:blur(5px);
+    opacity: 0.5;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+   
+}
+
+.card .card-content {
+    padding: 15px;
+}
+
+.card .card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+    /* Section title styling */
+    .section-title {
+        text-align: center;
+        font-size: 24px;
+        margin: 30px 0;
+        font-weight: bold;
+        color: #333;
+    }
+
+    /* Container for the product cards */
+    .product-gallery {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 20px;
+        gap: 15px;
+       
+    
+    }

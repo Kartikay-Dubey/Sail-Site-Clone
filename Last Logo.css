@@ -1,0 +1,13 @@
+.last-logo {
+    
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.last-logo img{
+    width: 200px;
+    height:120px;
+}
